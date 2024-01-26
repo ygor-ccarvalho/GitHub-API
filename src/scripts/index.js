@@ -43,7 +43,7 @@ async function getUserData(userName){
     user.setInfo(userResponse)
     user.setRepositories(repositoriesResponse)
 
-    console.log(user)
+
     screen.renderUser(user)
 
 }
