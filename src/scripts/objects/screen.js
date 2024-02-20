@@ -8,6 +8,18 @@ const screen = {
                 <div class="data">
                     <h1>${user.name ?? 'Não possui nome cadastrado 😥'}</h1>
                     <p>${user.bio ?? 'Não possui bio cadastrada 😥'}</p>
+                    <div class="follows">
+                        <div class="followers">
+                            <p><strong>Followers</strong></p>
+                            <p>${user.followers}</p>
+                        </div>
+                    
+
+                        <div class="following">
+                            <p><strong>Following</strong></p>
+                            <p>${user.following}</p>
+                        </div>
+                    </div>
                             
                 </div>
         </div>`

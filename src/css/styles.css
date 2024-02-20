@@ -120,6 +120,11 @@ main {
   font-weight: 400;
   line-height: 23px;
 }
+.container .profile-data .info .follows{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
 
 /* REPOSITORIES */
 
