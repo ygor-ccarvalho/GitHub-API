@@ -35,20 +35,20 @@ async function getUserData(userName){
 
     const userResponse = await getUser(userName)
 
-    if(userResponse.message2 === "Not Found"){
+    if(userResponse.message === "Not Found"){
         screen.renderNotFound()
         return
     }
     const repositoriesResponse = await getRepositories(userName)
     const eventsResponse = await getEvents(userName)
 
-          user.setInfo(userResponse)
-          user.setRepositories(repositoriesResponse)
-          user.setEvents(eventsResponse)
+            user.setInfo(userResponse)
+            user.setRepositories(repositoriesResponse)
+            user.setEvents(eventsResponse)
 
 
-          screen.renderUser(user)
-        // console.log(await userResponse)
-        // console.log(await eventsResponse)
-        // console.log(await repositoriesResponse)
+            screen.renderUser(user)
+          console.log(await userResponse)
+          console.log(await eventsResponse)
+          console.log(await repositoriesResponse)
 }

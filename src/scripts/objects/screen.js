@@ -35,7 +35,7 @@ const screen = {
                                             </div>`
         }
         let eventsItens = ''
-         user.events.forEach(event => eventsItens += `<li><a href = "${event.repo.url}" target="_blank"><strong>${event.repo.name}</strong> - ${event.payload.commits[0].message}</a> </li>`)
+         user.events.forEach(event => eventsItens += `<li><a href = "${event.repo.url}" target="_blank"><strong>${event.repo.name}</strong> - ${event.payload.commits[0].message}</a></li>`)
 
         if(user.events.length > 0){
             this.userProfile.innerHTML += `<div class="events section">
@@ -46,7 +46,7 @@ const screen = {
     
     },
     renderNotFound(){
-        this.userProfile.innerHTML = "<h3>Usuário não encontrado<h3>"
+        this.userProfile.innerHTML = "<h3>Usuário não encontrado 😥<h3>"
     }
 }
 export {screen}
