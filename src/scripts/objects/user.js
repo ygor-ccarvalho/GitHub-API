@@ -4,6 +4,10 @@ const user = {
     bio:'',
     userName:'',
     repositories: [],
+    repositorieForks: '',
+    repositorieStars: '',
+    repositorieWatchers: '',
+    repositorieLanguage: '',
     followers: '',
     following: '',
     events: [],
@@ -17,6 +21,10 @@ const user = {
     },
     setRepositories(repositories){
         this.repositories = repositories
+        this.repositorieForks = repositories.fork
+        this.repositorieStars = repositories.stargazers_count
+        this.repositorieWatchers = repositories.watchers
+        this.repositorieLanguage = repositories.language
     },
     setEvents(events){
         this.events = events

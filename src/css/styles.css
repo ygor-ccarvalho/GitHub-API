@@ -80,11 +80,8 @@ main {
 }
 
 .container header #btn-search:hover {
-<<<<<<< HEAD
   background-color: black;
-=======
   background-color: #000000;
->>>>>>> 041dd0e8bb9f3882c5dc922db88b1e62ea640a30
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -110,11 +107,7 @@ main {
 .container .profile-data .info img{
   width: 50%;
   border-radius: 50%;
-<<<<<<< HEAD
-  border: 10px solid #333333;
-=======
   border: 10px solid #000000;
->>>>>>> 041dd0e8bb9f3882c5dc922db88b1e62ea640a30
 }
 
 .container .profile-data .info h1{
@@ -154,14 +147,61 @@ main {
   display: block;
   border-radius: 7px;
   transition: 0.3s ease-in-out;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
 }
+.container .profile-data .repositories .info{
+  margin-top: 10px;
+  gap: 10px; 
+  color: white;
+}
+.container .profile-data .repositories .info .forks{
+  background-color: rgb(106, 90, 205);
+  padding: 5px;
+  border-radius: 10px;
+  
+}
+.container .profile-data .repositories .info .forks::before{
+  content:url('/src/images/forks.png');
+  margin-right: 5px;
+}
+.container .profile-data .repositories .info .stars{
+  background-color: rgb(106, 90, 205);
+  padding: 5px;
+  border-radius: 10px;
+  
+}
+.container .profile-data .repositories .info .stars::before{
+  content:url('/src/images/star.png');
+  margin-right: 5px;
+}
+.container .profile-data .repositories .info .watchers{
+  background-color:rgb(106, 90, 205);
+  padding: 5px;
+  border-radius: 10px;
+  
+}
+.container .profile-data .repositories .info .watchers::before{
+  content:url('/src/images/olhos.png');
 
+  margin-right: 5px;
+}
+.container .profile-data .repositories .info .language{
+  background-color: rgb(106, 90, 205);
+  padding: 5px;
+  border-radius: 10px;
+  
+}
+.container .profile-data .repositories .info .language::before{
+  content:url('/src/images/language.png');
+  margin-right: 5px;
+}
 .container .profile-data .repositories ul li a:hover{
-<<<<<<< HEAD
-  background-color:#333333;
-=======
+
   background-color:#000000;
->>>>>>> 041dd0e8bb9f3882c5dc922db88b1e62ea640a30
   color: #fff
 }
 
@@ -188,6 +228,10 @@ main {
 }
 .container .profile-data .events strong{
   font-weight: bold;
+}
+.container .profile-data .events ul{
+  display: flex;
+  flex-direction: column;
 }
 
 .container .profile-data.hide{
