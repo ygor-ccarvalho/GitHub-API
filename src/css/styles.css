@@ -165,7 +165,7 @@ main {
   
 }
 .container .profile-data .repositories .info .forks::before{
-  content:url('./images/forks.png');
+  content:url('../images/forks.png');
   margin-right: 5px;
 }
 .container .profile-data .repositories .info .stars{
@@ -175,7 +175,7 @@ main {
   
 }
 .container .profile-data .repositories .info .stars::before{
-  content:url('./images/star.png');
+  content:url('../images/star.png');
   margin-right: 5px;
 }
 .container .profile-data .repositories .info .watchers{
@@ -185,7 +185,7 @@ main {
   
 }
 .container .profile-data .repositories .info .watchers::before{
-  content:url('./images/olhos.png');
+  content:url('../images/olhos.png');
 
   margin-right: 5px;
 }
@@ -196,7 +196,7 @@ main {
   
 }
 .container .profile-data .repositories .info .language::before{
-  content:url('./images/language.png');
+  content:url('../images/language.png');
   margin-right: 5px;
 }
 .container .profile-data .repositories ul li a:hover{
