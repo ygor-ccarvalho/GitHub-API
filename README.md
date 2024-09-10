@@ -9,7 +9,7 @@ O **GitHub API Search** é uma aplicação simples que utiliza a API pública do
 3. Clique no botão de busca ou pressione "Enter".
 4. Aguarde a exibição das informações do perfil do usuário.
 
-##Capturas de tela
+## Capturas de tela
 <img src="https://raw.githubusercontent.com/ygor-ccarvalho/GitHub-API/2044e851d524b1f41434fed89e08fc44f1c2e604/src/images/git-api.gif">
 
 ## Validações
